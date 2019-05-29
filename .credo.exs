@@ -54,7 +54,8 @@
         {Credo.Check.Warning.UnusedTupleOperation},
         {Credo.Check.Warning.OperationWithConstantResult},
         {CredoEnvvar.Check.Warning.EnvironmentVariablesAtCompileTime},
-        {CredoFilenameConsistency.Check.Consistency.FilenameConsistency, excluded_paths: ["config", "mix.exs", "priv", "test/support"]}
+        {CredoFilenameConsistency.Check.Consistency.FilenameConsistency,
+         excluded_paths: ["config", "mix.exs", "priv", "test/support"], acronyms: [{"ElixirBoilerplateGraphQL", "elixir_boilerplate_graphql"}]}
       ]
     }
   ]
